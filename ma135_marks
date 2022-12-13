@@ -1,0 +1,19 @@
+asgn = [24.5,
+27,
+19.5,
+0,
+21.5,
+20,
+15]
+
+test1 = 41/45
+test2 = 33/40
+
+c_asgn = sum(asgn) / (8 * 30 )
+print(c_asgn)
+c_asgn = 0.9
+passf = 0.20
+
+curr = c_asgn * 0.2 + test1 * 0.2 + test2 * 0.2 + passf * 0.4
+
+print(curr)
