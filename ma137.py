@@ -4,18 +4,18 @@ from util import *
 final_weight = 50
 overall_goal = 60
 
-quiz_drops = 2
+quiz_drops = 2 # keep same
 quiz = [
     63,
-    7,
-    46,
-    81,
-    61,
-    68,
+    12,
+    34,
+    100,
+    0,
+    0,
     77]
 
 academic_integrity = 0
-latex_quiz = 0
+latex_quiz = 99.12345
 latex_assign = 0
 mt = 47/58 * 100
 

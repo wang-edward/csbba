@@ -4,13 +4,12 @@ from util import *
 final_weight = 40 
 overall_goal = 60
 
-assignments = [24.5,
-27,
-19.5,
-0,
-21.5,
-20,
-15] # missed some assignments cuz transfer from 145, should have a0 - a9
+assignments = [
+    12,
+    13,
+    14,
+    15
+] # input as number out of 30 (like what's on learn) should have a0 - a9
 
 test1 = 41/45 * 100
 test2 = 33/40 * 100

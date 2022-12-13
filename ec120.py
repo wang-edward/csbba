@@ -9,16 +9,16 @@ overall_goal = 60
 
 minor = [
     4,
-    2.24,
-    1.78,
-    0.44,
-    2.17]
+    4,
+    4,
+    0,
+    1.2345] # out of 4 like on myLS
 
 review = [
     4,
-    4.33,
-    4.17,
-    4.33]
+    4,
+    5,
+    1.231] # out of 5 like on myLS
 
 mt = 80.91
 

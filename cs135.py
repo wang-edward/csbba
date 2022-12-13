@@ -6,16 +6,16 @@ overall_goal = 60
 
 assignments = [
 100,
-92.65,
-97.5,
-79.60,
+12.34,
+34.5,
+12.60,
 96.55,
-65.90,
-77,
-70.13,
-72.90] # one assignment got exempted
+61.9123123123123123,
+23,
+5.13,
+90.90] # out of 100
 
-mt1 = 87
+mt1 = 0
 mt2 = 73
 iclick = 58.2 * 4/3 # top 75% (might be wrong)
 
