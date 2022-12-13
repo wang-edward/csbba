@@ -17,5 +17,12 @@ def drop_n (las, n):
     y = len(las)-1
     return las[n:y]
 
+if __name__ == "__main__":
+    print("""============================================= 
+    this is util file, update your marks in the files then run
+    \tpython3 <course_code>.py
+    example: Math 135 - Algebra
+    \tpython3 ma135.py
+=============================================""")
 
 # final(50, 50, 60)
