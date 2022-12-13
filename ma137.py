@@ -2,7 +2,8 @@ from util import *
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 final_weight = 50
-pass_req = 60
+overall_goal = 60
+
 quiz_drops = 2
 quiz = [
     63,
@@ -27,4 +28,4 @@ quiz = sum(x) / (len(x))
 curr = academic_integrity * 0.01 + latex_quiz * 0.01 + latex_assign * 0.01 + quiz * 0.19 + mt * 0.3
 
 if __name__ == "__main__":
-    final(curr, final_weight, pass_req)
+    final(curr, final_weight, overall_goal)

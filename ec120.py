@@ -1,7 +1,11 @@
+from util import * 
 # 20% - minor assessments
 # 20% - review quizzes
 # 25% - midterm
 # 35% - final
+
+final_weight = 35
+overall_goal = 60
 
 minor = [
     4,
@@ -16,11 +20,9 @@ review = [
     4.17,
     4.33]
 
-mt = 80.91 * 0.25
+mt = 80.91
 
-curr = sum(minor) + sum(review) + mt
+curr = sum(minor) + sum(review) + mt * 0.25
 
-for i in range(11):
-    x = i * 10 
-    weighted = x* 0.35
-    print("{0}%: {1}".format(x, curr + weighted))
+if __name__ == "__main__":
+    final(curr, final_weight, overall_goal)
